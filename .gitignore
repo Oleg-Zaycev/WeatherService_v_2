@@ -1,9 +1,7 @@
-.gradle
+### Gradle ###
+.gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-.kotlin
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -11,11 +9,8 @@ build/
 .idea/compiler.xml
 .idea/libraries/
 *.iws
-*.iml
-*.ipr
+# *.iml (оставить, если нужно)
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
 ### Eclipse ###
 .apt_generated
@@ -26,8 +21,6 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
@@ -39,5 +32,14 @@ bin/
 ### VS Code ###
 .vscode/
 
+### Logs ###
+*.log
+
+### Environment ###
+.env
+
 ### Mac OS ###
 .DS_Store
+
+### Windows ###
+.vs/
