@@ -43,3 +43,10 @@ bin/
 
 ### Windows ###
 .vs/
+
+### Optional (если нужно) ###
+# node_modules/
+# **/src/main/**/out/
+# **/src/test/**/out/
+# **/src/main/**/bin/
+# **/src/test/**/bin/
